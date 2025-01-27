@@ -5,8 +5,10 @@ import Scrapping from "../assets/Scraping.png";
 import gaming from "../assets/gameDev.png";
 import websummarizer from "../assets/web summarizer.jpg";
 import location from "../assets/location.jpg";
-import hospital_management from "../assets/food_management.jpg";
 import treanding from "../assets/treanding.jpg";
+import scrapegpt from "../assets/scrapgpt.png";
+import hospital_management from "../assets/hospital_management.png";
+import GeoQuest from "../assets/geoquest.png";
 import { useNavigate } from "react-router-dom"; // Import the useNavigate hook
 
 const Projects = () => {
@@ -38,7 +40,7 @@ const Projects = () => {
             <div className="flex flex-col md:flex-row items-center md:items-start border-2 border-zinc-900 rounded-2xl w-full max-w-4xl p-4">
               <div className="image md:w-1/2 w-full mb-4 md:mb-0">
                 <img
-                  src={websummarizer}
+                  src={scrapegpt}
                   alt="ChatScrape"
                   className="h-40 w-full rounded-2xl object-cover group-hover:opacity-0 transition-opacity duration-300"
                 />
@@ -75,7 +77,7 @@ const Projects = () => {
                   smart food management system.{" "}
                 </p>
                 <a
-                  href="https://scrapegpt-bice.vercel.app/"
+                  href="https://hospital-food-management-system-1.onrender.com/"
                   className="flex justify-center md:justify-start items-center  gap-3 border-2 border-zinc-900 rounded-md px-4 py-2 hover:bg-zinc-900 transition-all"
                 >
                   <FaGlobe />
@@ -163,7 +165,7 @@ const Projects = () => {
             <div className="flex flex-col md:flex-row items-center md:items-start border-2 border-zinc-900 rounded-2xl w-full max-w-4xl p-4">
               <div className="image md:w-1/2 w-full mb-4 md:mb-0">
                 <img
-                  src={location}
+                  src={GeoQuest}
                   alt="GeoQuest"
                   className="h-40 w-full rounded-2xl object-cover"
                 />
